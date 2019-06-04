@@ -17,7 +17,6 @@ export class PokeList extends Component{
   }
 
   render() {
-    console.log('map', this.props.pokemon)
     return (
       <section className="PokeList-field">
         {this.mapPoke()}

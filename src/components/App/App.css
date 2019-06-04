@@ -13,10 +13,6 @@
 }
 
 .PokeList-field {
-  /* display: grid;
-  grid-template-areas: "pokeCard pokeCard pokeCard";
-  grid-gap: 20px;
-  padding: 10vw; */
   display: flex;
   justify-content: center;
   flex-flow: wrap;
