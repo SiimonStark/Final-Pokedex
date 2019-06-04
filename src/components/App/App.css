@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900');
+.App {
+  text-align: center;
+  background-color: orangered;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+  margin-top: 0;
+  letter-spacing: .5em;
+  font-weight: 700;
+  height: 4em;
+}
+
+.PokeList-field {
+  /* display: grid;
+  grid-template-areas: "pokeCard pokeCard pokeCard";
+  grid-gap: 20px;
+  padding: 10vw; */
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.pokeCard {
+  background: linear-gradient(silver, gray);
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  padding-bottom: 10px;
+}
